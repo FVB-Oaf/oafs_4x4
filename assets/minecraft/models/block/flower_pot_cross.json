@@ -1,0 +1,53 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [8, 8],
+	"textures": {
+		"0": "block/flower_pot",
+		"particle": "block/flower_pot"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [4, 0, 4],
+			"to": [12, 4, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 4], "texture": "#0"},
+				"east": {"uv": [8, 0, 16, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 8, 4], "texture": "#0"},
+				"west": {"uv": [8, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [0, 8, 8, 16], "texture": "#0"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [2.6, 4, 8],
+			"to": [13.4, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 12], "texture": "#plant"},
+				"south": {"uv": [0, 0, 16, 12], "texture": "#plant"}
+			}
+		},
+		{
+			"from": [8, 4, 2.6],
+			"to": [8, 16, 13.4],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 12], "texture": "#plant"},
+				"west": {"uv": [0, 0, 16, 12], "texture": "#plant"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "flower_pot_cross",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
