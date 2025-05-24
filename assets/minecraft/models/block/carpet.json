@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/thin_block",
+	"textures": {
+		"particle": "#wool"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0.01, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#wool"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#wool", "cullface": "down"}
+			}
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/sniffer_egg_not_cracked",
+  "textures": {
+    "egg": "minecraft:block/atlases/sniffer_egg_cracked_2"
+  }
+}

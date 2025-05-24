@@ -1,0 +1,18 @@
+{
+    "textures": {
+        "egg": "block/atlases/sniffer_egg_cracked_0",
+        "particle": "#egg"
+    },
+    "elements":[
+        {
+            "from":[0,0,0],"to":[16,16,16],"faces":{
+                "down": {"uv": [ 4, 0, 8, 4],"texture": "#egg","cullface": "down"},
+                "up": {"uv":   [ 8, 0,12, 4],"texture": "#egg","cullface": "up"},
+                "north": {"uv":[ 4, 4, 8, 8],"texture": "#egg","cullface": "north"},
+                "south": {"uv":[12, 4,16, 8],"texture": "#egg","cullface": "south"},
+                "west": {"uv": [ 8, 4,12, 8],"texture": "#egg","cullface": "west"},
+                "east": {"uv": [ 0, 4, 4, 8],"texture": "#egg","cullface": "east"}
+            }
+        }
+    ]
+}

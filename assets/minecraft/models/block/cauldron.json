@@ -1,0 +1,74 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/cauldron_bottom",
+		"1": "block/cauldron_inner",
+		"2": "block/cauldron_side",
+		"3": "block/cauldron_top",
+		"particle": "block/cauldron_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 4, 0],
+			"to": [4, 16, 16],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 12], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 12], "texture": "#1", "cullface": "up"},
+				"south": {"uv": [0, 0, 4, 12], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 12], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 0, 4, 16], "texture": "#3", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 4, 16],
+			"faces": {
+				"north": {"uv": [0, 12, 16, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 12, 16, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [0, 12, 16, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [0, 12, 16, 16], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [12, 4, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 12], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 12], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [12, 0, 16, 12], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 12], "texture": "#1", "cullface": "up"},
+				"up": {"uv": [12, 0, 16, 16], "texture": "#3", "cullface": "up"}
+			}
+		},
+		{
+			"from": [4, 4, 0],
+			"to": [12, 16, 4],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "north"},
+				"south": {"uv": [4, 0, 12, 12], "texture": "#1", "cullface": "up"},
+				"up": {"uv": [4, 0, 12, 4], "texture": "#3", "cullface": "up"}
+			}
+		},
+		{
+			"from": [4, 4, 12],
+			"to": [12, 16, 16],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 12], "texture": "#1", "cullface": "up"},
+				"south": {"uv": [4, 0, 12, 12], "texture": "#2", "cullface": "south"},
+				"up": {"uv": [4, 12, 12, 16], "texture": "#3", "cullface": "up"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "cauldron",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}
