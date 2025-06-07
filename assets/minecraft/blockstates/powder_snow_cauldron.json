@@ -1,0 +1,8 @@
+{
+  "multipart":[
+    {"apply":{"model":"minecraft:block/cauldron"}},
+    {"apply":{"model":"minecraft:block/_oaf/snow1"},"when":{"level":"1"}},
+    {"apply":{"model":"minecraft:block/_oaf/snow2"},"when":{"level":"2"}},
+    {"apply":{"model":"minecraft:block/_oaf/snow3"},"when":{"level":"3"}}
+  ]
+}
