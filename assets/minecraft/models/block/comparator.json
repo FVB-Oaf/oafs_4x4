@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/comparator_on",
+  "textures": {
+    "back_torches": "minecraft:block/redstone_torch_off"
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/chorus_plant",
+		"inside": "block/chorus_plant"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#inside", "cullface": "down"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#inside", "cullface": "down"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#inside", "cullface": "down"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#inside", "cullface": "down"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#inside"},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#inside", "cullface": "down"}
+			}
+		}
+	]
+}
