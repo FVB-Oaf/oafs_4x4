@@ -1,0 +1,18 @@
+{
+    "format_version":2,
+    "header":{
+        "description":"",
+        "name":"Oaf's 4x4",
+        "uuid":"b8c038b9-5e11-4487-8b0f-b00c3b816570",
+        "version":[0,0,1],
+        "min_engine_version":[1,21,90]
+    },
+    "modules":[
+        {
+            "description":"Oaf's 4x4 resource pack",
+            "type":"resources",
+            "uuid":"cb37c7cf-086d-4805-9a85-123456701134",
+            "version":[0,0,1]
+        }
+    ]
+}
