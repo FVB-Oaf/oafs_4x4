@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [32, 32],
+	"textures": {
+		"tex": "block/bamboo_fence",
+		"particle": "block/bamboo_fence_particle"
+	},
+	"elements": [
+		{
+			"name": "bottom",
+			"from": [0, 4, 4],
+			"to": [16, 16, 12],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 6], "texture": "#tex"},
+				"east": {"uv": [8, 0, 12, 6], "texture": "#tex", "cullface": "east"},
+				"south": {"uv": [8, 0, 16, 6], "texture": "#tex"},
+				"west": {"uv": [12, 0, 16, 6], "texture": "#tex", "cullface": "west"},
+				"up": {"uv": [0, 0, 8, 4], "texture": "#tex", "cullface": "up"},
+				"down": {"uv": [0, 4, 8, 8], "texture": "#tex"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, -1, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"translation": [0, -3, -6]
+		}
+	}
+}

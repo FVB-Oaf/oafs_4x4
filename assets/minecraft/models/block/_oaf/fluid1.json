@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#texture"
+	},
+	"elements": [
+		{
+			"from": [4, 7.99, 4],
+			"to": [12, 8, 12],
+			"faces": {
+				"up": {"uv": [4, 4, 12, 12], "texture": "#texture", "cullface": "up", "tintindex": 0},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#texture", "tintindex": 0}
+			}
+		}
+	]
+}

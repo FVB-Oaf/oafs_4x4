@@ -1,0 +1,5 @@
+{"ambientocclusion":true,"textures":{"cross":"minecraft:block/atlases/pointed_dripstone","particle":"minecraft:block/dripstone_block"},"elements":[{"from":[0.8,0,8],"to":[15.2,16,8],"rotation":{"origin":[8,8,8],"axis":"y","angle":45,"rescale":true},"shade":false,"faces":{
+"north":{"uv":[4,8,8,12],"texture":"#cross"},
+"south":{"uv":[4,8,8,12],"texture":"#cross"}}},{"from":[8,0,0.8],"to":[8,16,15.2],"rotation":{"origin":[8,8,8],"axis":"y","angle":45,"rescale":true},"shade":false,"faces":{
+"west":{"uv": [4,8,8,12],"texture":"#cross"},
+"east":{"uv": [4,8,8,12],"texture":"#cross"}}}]}
