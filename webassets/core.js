@@ -1,4 +1,5 @@
-const current_version=`b1.0.1.0`;
+const current_version=`b1.0.3.0`;
+const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
 const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp=[""];
@@ -292,6 +293,116 @@ const changelog_content=`
             ["%assets/minecraft/textures/painting/wind.png"],
             ["%assets/minecraft/textures/painting/wither.png"],
         ])}
+    </p></details><br><details><summary><h2>b1.0.2.0 (July 19<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Added/Modified files:",
+            ["%assets/minecraft/blockstates/melon_stem.json"]
+        ])}
+    </p></details><br><details><summary><h2>b1.0.3.0 (July 24<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Added/Modified files:",
+            ["%pack.mcmeta"],
+            ["%assets/minecraft/blockstates/bamboo_fence.json"],
+            ["%assets/minecraft/blockstates/lava_cauldron.json"],
+            ["%assets/minecraft/blockstates/powder_snow_cauldron.json"],
+            ["%assets/minecraft/blockstates/water_cauldron.json"],
+            ["%assets/minecraft/models/block/bamboo_fence_gate.json"],
+            ["%assets/minecraft/models/block/bamboo_fence_gate_open.json"],
+            ["%assets/minecraft/models/block/bamboo_fence_gate_wall.json"],
+            ["%assets/minecraft/models/block/bamboo_fence_gate_wall_open.json"],
+            ["%assets/minecraft/models/block/bamboo_fence_inventory.json"],
+            ["%assets/minecraft/models/block/bamboo_fence_post.json"],
+            ["%assets/minecraft/models/block/bamboo_fence_side1.json"],
+            ["%assets/minecraft/models/block/bamboo_fence_side2.json"],
+            ["%assets/minecraft/models/block/bamboo1_age0.json"],
+            ["%assets/minecraft/models/block/bamboo1_age1.json"],
+            ["%assets/minecraft/models/block/bamboo2_age0.json"],
+            ["%assets/minecraft/models/block/bamboo2_age1.json"],
+            ["%assets/minecraft/models/block/bamboo3_age0.json"],
+            ["%assets/minecraft/models/block/bamboo3_age1.json"],
+            ["%assets/minecraft/models/block/bamboo4_age0.json"],
+            ["%assets/minecraft/models/block/bamboo4_age1.json"],
+            ["%assets/minecraft/models/block/bell_between_walls.json"],
+            ["%assets/minecraft/models/block/cartography_table.json"],
+            ["%assets/minecraft/models/block/cauldron.json"],
+            ["%assets/minecraft/models/block/crafter.json"],
+            ["%assets/minecraft/models/block/crafter_crafting.json"],
+            ["%assets/minecraft/models/block/crafter_triggered.json"],
+            ["%assets/minecraft/models/block/pointed_dripstone_down_base.json"],
+            ["%assets/minecraft/models/block/pointed_dripstone_down_frustum.json"],
+            ["%assets/minecraft/models/block/pointed_dripstone_down_middle.json"],
+            ["%assets/minecraft/models/block/pointed_dripstone_down_tip.json"],
+            ["%assets/minecraft/models/block/pointed_dripstone_down_tip_merge.json"],
+            ["%assets/minecraft/models/block/pointed_dripstone_up_base.json"],
+            ["%assets/minecraft/models/block/pointed_dripstone_up_frustum.json"],
+            ["%assets/minecraft/models/block/pointed_dripstone_up_middle.json"],
+            ["%assets/minecraft/models/block/pointed_dripstone_up_tip.json"],
+            ["%assets/minecraft/models/block/pointed_dripstone_up_tip_merge.json"],
+            ["%assets/minecraft/models/block/_oaf/fluid1.json"],
+            ["%assets/minecraft/models/block/_oaf/fluid2.json"],
+            ["%assets/minecraft/models/block/_oaf/fluid3.json"],
+            ["%assets/minecraft/models/block/_oaf/lava3.json"],
+            ["%assets/minecraft/models/block/_oaf/snow1.json"],
+            ["%assets/minecraft/models/block/_oaf/snow2.json"],
+            ["%assets/minecraft/models/block/_oaf/snow3.json"],
+            ["%assets/minecraft/models/block/_oaf/water1.json"],
+            ["%assets/minecraft/models/block/_oaf/water2.json"],
+            ["%assets/minecraft/models/block/_oaf/water3.json"],
+            ["%assets/minecraft/textures/block/azure_bluet.png"],
+            ["%assets/minecraft/textures/block/bamboo_block.png"],
+            ["%assets/minecraft/textures/block/bamboo_block_top.png"],
+            ["%assets/minecraft/textures/block/bamboo_door_bottom.png"],
+            ["%assets/minecraft/textures/block/bamboo_door_top.png"],
+            ["%assets/minecraft/textures/block/bamboo_fence.png"],
+            ["%assets/minecraft/textures/block/bamboo_fence_gate_particle.png"],
+            ["%assets/minecraft/textures/block/bamboo_fence_particle.png"],
+            ["%assets/minecraft/textures/block/bamboo_large_leaves.png"],
+            ["%assets/minecraft/textures/block/bamboo_mosaic.png"],
+            ["%assets/minecraft/textures/block/bamboo_planks.png"],
+            ["%assets/minecraft/textures/block/bamboo_singleleaf.png"],
+            ["%assets/minecraft/textures/block/bamboo_small_leaves.png"],
+            ["%assets/minecraft/textures/block/bamboo_stage0.png"],
+            ["%assets/minecraft/textures/block/bamboo_stalk.png"],
+            ["%assets/minecraft/textures/block/bamboo_trapdoor.png"],
+            ["%assets/minecraft/textures/block/barrel_bottom.png"],
+            ["%assets/minecraft/textures/block/barrel_side.png"],
+            ["%assets/minecraft/textures/block/barrel_top.png"],
+            ["%assets/minecraft/textures/block/barrel_top_open.png"],
+            ["%assets/minecraft/textures/block/basalt_side.png"],
+            ["%assets/minecraft/textures/block/basalt_top.png"],
+            ["%assets/minecraft/textures/block/bedrock.png"],
+            ["%assets/minecraft/textures/block/bee_nest_bottom.png"],
+            ["%assets/minecraft/textures/block/bee_nest_front.png"],
+            ["%assets/minecraft/textures/block/bee_nest_front_honey.png"],
+            ["%assets/minecraft/textures/block/bee_nest_side.png"],
+            ["%assets/minecraft/textures/block/bee_nest_top.png"],
+            ["%assets/minecraft/textures/block/beehive_end.png"],
+            ["%assets/minecraft/textures/block/beehive_front.png"],
+            ["%assets/minecraft/textures/block/beehive_front_honey.png"],
+            ["%assets/minecraft/textures/block/beehive_side.png"],
+            ["%assets/minecraft/textures/block/bell_bottom.png"],
+            ["%assets/minecraft/textures/block/bell_top.png"],
+            ["%assets/minecraft/textures/block/cauldron_top.png"],
+            ["%assets/minecraft/textures/block/dark_oak_planks.png"],
+            ["%assets/minecraft/textures/block/powder_snow.png"],
+            ["%assets/minecraft/textures/block/lava_flow.png"],
+            ["%assets/minecraft/textures/block/lava_flow.png.mcmeta"],
+            ["%assets/minecraft/textures/block/lava_still.png"],
+            ["%assets/minecraft/textures/block/lava_still.png.mcmeta"],
+            ["%assets/minecraft/textures/block/stone.png"],
+            ["%assets/minecraft/textures/block/water_flow.png"],
+            ["%assets/minecraft/textures/block/water_flow.png.mcmeta"],
+            ["%assets/minecraft/textures/block/water_overlay.png"],
+            ["%assets/minecraft/textures/block/water_still.png"],
+            ["%assets/minecraft/textures/block/water_still.png.mcmeta"],
+            ["%assets/minecraft/textures/block/_oaf/bamboo_stalk_end.png"],
+            ["%assets/minecraft/textures/block/_oaf/cartography_table.png"],
+            ["%assets/minecraft/textures/block/_oaf/crafter.png"],
+            ["%assets/minecraft/textures/block/_oaf/invisible.png"],
+            ["%assets/minecraft/textures/block/_oaf/pointed_dripstone.png"],
+            ["%overlay_1_21_7/assets/minecraft/textures/item/music_disc_lava_chicken.png"],
+            ["%overlay_1_21_7/assets/minecraft/textures/painting/dennis.png"]
+        ])}
     </p></details>
 `;
 const guide_content = `
@@ -308,6 +419,8 @@ const guide_content = `
         The latest version of OptiFine can be downloaded <a href = "https://optifine.net/downloads">here</a>.<br>
         The changelog can be viewed <a href = "_changelog.html#latest">here</a>.<br>
         The credits can be viewed <a href = "_credits.html#home">here</a>.<br>
+        <br>
+        This version is developed on ${current_ofnvers}<br>
         <br>
         <br>
         <span class = "smallText">
